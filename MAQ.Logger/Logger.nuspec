@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MAQ.Logger</id>
+    <version>1.0</version>
+    <title>Logger</title>
+    <authors>MAQ Software</authors>
+    <owners>MAQ Software</owners>
+    <licenseUrl>https://github.com/maqsoftware/logger/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/maqsoftware/logger</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/maqsoftware/logger/master/MAQ.Logger/Icon/icon.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Logger is a client library which logs a message in the Event Viewer, or text file an Azure table storage.</description>
+    <releaseNotes>Logs exception, information, warning in text file, or Azure table storage, or Event Viewer</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Exception Warning Information AzureTableStorageLog EventViewerLog TextLog Log Logging Logger</tags>
+    <dependencies>
+      <dependency id="WindowsAzure.Storage" version="8.1.1"/>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Configuration" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Logger.dll" target="lib\net45\Logger.dll"/>
+  </files>
+</package>
